@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>二十四节气网-起始页</title>
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />    
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<link type="text/css" rel="stylesheet" href="css/swiper.min.css"/>
+<link type="text/css" rel="stylesheet" href="css/index.css"/>   
+<link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />    
+<script src="./js/框架.js"></script>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- 1st screen -->
+            <div class="swiper-slide" id="section1">                
+                    <div class="Pic"><img id="img_bigpic" src="photos/shouye.jpg"/></div>
+
+                    <div class="TopTxt">春雨惊春清谷天，夏满芒夏暑相连。<br/> 秋处露秋寒霜降，冬雪雪冬小大寒。<br/> 每月两节日期定，最多只差一两天。<br/>上半年是六廿一，下半年是八廿三。</div>                
+                    
+                    <div class="DateBorder">
+                        <div class="timeClock">                            
+                            <canvas id="canvasTimeClock" width="58" height="58"><img class="img_TimeClock" src="photos/timeClock.png"/></canvas>
+                        </div>    
+                        <p class="p_TimeNow" id="p_TimeNow">00 : 01 : 01</p>
+                        <p class="p_DateTimeDetail">2023年05月24日 星期三<br/>癸卯【兔】年 四月初六<br/>丁巳月 壬午日 戊申时</p>
+                    </div>
+            </div>
+            <!-- /1st screen -->
+            <!-- 2nd screen -->
+            <div class="swiper-slide" id="section2">
+                <!-- <div class="div_season season_spring">
+                    <dl>
+						<dt>春<em>spring</em></dt>
+						
+						<dd><a class="on">立春<br/>Spring Begins</a><a href="solarterm-1.html" class="current">立春<br/>Spring Begins</a></dd>
+						<dd><a class="on">雨水<br/>The Rains</a><a href="solarterm-2.html" class="current">雨水<br/>The Rains</a></dd>
+						<dd><a class="on">惊蛰<br/>Insects Awaken</a><a href="solarterm-3.html" class="current">惊蛰<br/>Insects Awaken</a></dd>
+						<dd><a class="on">春分<br/>Vernal Equinox</a><a href="solarterm-4.html" class="current">春分<br/>Vernal Equinox</a></dd>
+						<dd><a class="on">清明<br/>Clear And Bright</a><a href="solarterm-5.html" class="current">清明<br/>Clear And Bright</a></dd>
+						<dd><a class="on">谷雨<br/>Grain Rain</a><a href="solarterm-6.html" class="current">谷雨<br/>Grain Rain</a></dd>
+						
+                        <div class="clearBoth"></div>
+                    </dl>
+                </div>  -->
+                
+                <!-- <div class="div_season season_summer">
+                    <dl>
+                        <dt>夏<em>summer</em></dt>
+                        
+                        <dd><a class="on">立夏<br/>Summer Begins</a><a href="solarterm-7.html" class="current">立夏<br/>Summer Begins</a></dd>
+                        <dd><a class="on">小满<br/>Grain Buds</a><a href="solarterm-8.html" class="current">小满<br/>Grain Buds</a></dd>
+                        <dd><a class="on">芒种<br/>Grain In Ear</a><a href="solarterm-9.html" class="current">芒种<br/>Grain In Ear</a></dd>
+                        <dd><a class="on">夏至<br/>Summer Solstice</a><a href="solarterm-10.html" class="current">夏至<br/>Summer Solstice</a></dd>
+                        <dd><a class="on">小暑<br/>Slight Heat</a><a href="solarterm-11.html" class="current">小暑<br/>Slight Heat</a></dd>
+                        <dd><a class="on">大暑<br/>Great Heat</a><a href="solarterm-12.html" class="current">大暑<br/>Great Heat</a></dd>
+                        
+                        <div class="clearBoth"></div>
+                    </dl>
+                </div>      -->
+
+                <div class="春">
+                    <div class="春字">
+                        <img src="./photos/spring.png" alt="春" title="春天的节气">
+                    </div>
+            
+                    <div class="节气介绍">
+                        <a href="文案——立秋.html" title="立春">
+                            <div class="ph" data-image="./春季材料/立春.jpg">立春</div>
+                        </a>
+                        <a href="文案——处暑.html" title="雨水">
+                            <div class="ph" data-image="./春季材料/雨水.jpg">雨水</div>
+                        </a>
+                        <a href="文案——白露.html" title="惊蛰">
+                            <div class="ph" data-image="./春季材料/惊蛰.jpg">惊蛰</div>
+                        </a>
+                        <a href="文案——秋分.html" title="春分">
+                            <div class="ph" data-image="./春季材料/春分.jpg">春分</div>
+                        </a>
+                        <a href="文案——霜降.html" title="清明">
+                            <div class="ph" data-image="./春季材料/清明.jpg">清明</div>
+                        </a>
+                        <a href="文案——寒露.html" title="谷雨">
+                            <div class="ph" data-image="./春季材料/谷雨.jpg">谷雨</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="夏">
+                    <div class="夏字">
+                        <img src="./photos/summer.png" alt="夏" title="夏天的节气">
+                    </div>
+            
+                    <div class="节气介绍">
+                        <a href="文案——立秋.html" title="立夏">
+                            <div class="ph" data-image="./夏季材料/立夏.jpg">立夏</div>
+                        </a>
+                        <a href="文案——处暑.html" title="小满">
+                            <div class="ph" data-image="./夏季材料/小满.jpg">小满</div>
+                        </a>
+                        <a href="文案——白露.html" title="芒种">
+                            <div class="ph" data-image="./夏季材料/芒种.jpg">芒种</div>
+                        </a>
+                        <a href="文案——秋分.html" title="夏至">
+                            <div class="ph" data-image="./夏季材料/夏至.jpg">夏至</div>
+                        </a>
+                        <a href="文案——霜降.html" title="小暑">
+                            <div class="ph" data-image="./夏季材料/小暑.jpg">小暑</div>
+                        </a>
+                        <a href="文案——寒露.html" title="大暑">
+                            <div class="ph" data-image="./夏季材料/大暑.jpg">大暑</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="秋">
+                    <div class="秋字">
+                        <img src="./photos/autumn.png" alt="秋" title="秋天的节气">
+                    </div>
+            
+                    <div class="节气介绍">
+                        <a href="文案——立秋.html" title="立秋">
+                            <div class="ph" data-image="./秋季材料/立秋.jpg">立秋</div>
+                        </a>
+                        <a href="文案——处暑.html" title="处暑">
+                            <div class="ph" data-image="./秋季材料/处暑.jpg">处暑</div>
+                        </a>
+                        <a href="文案——白露.html" title="白露">
+                            <div class="ph" data-image="./秋季材料/白露.jpg">白露</div>
+                        </a>
+                        <a href="文案——秋分.html" title="秋分">
+                            <div class="ph" data-image="./秋季材料/秋分.jpg">秋分</div>
+                        </a>
+                        <a href="文案——霜降.html" title="寒露">
+                            <div class="ph" data-image="./秋季材料/寒露.jpg">寒露</div>
+                        </a>
+                        <a href="文案——寒露.html" title="霜降">
+                            <div class="ph" data-image="./秋季材料/霜降.jpg">霜降</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="冬">
+                    <div class="冬字">
+                        <img src="./photos/winter.png" alt="冬" title="冬天的节气">
+                    </div>
+            
+                    <div class="节气介绍">
+                        <a href="文案——立秋.html" title="立冬">
+                            <div class="ph" data-image="./冬季材料/立冬.jpg">立冬</div>
+                        </a>
+                        <a href="文案——处暑.html" title="小雪">
+                            <div class="ph" data-image="./冬季材料/小雪.jpg">小雪</div>
+                        </a>
+                        <a href="文案——白露.html" title="大雪">
+                            <div class="ph" data-image="./冬季材料/大雪.jpg">大雪</div>
+                        </a>
+                        <a href="文案——秋分.html" title="冬至">
+                            <div class="ph" data-image="./冬季材料/冬至.jpg">冬至</div>
+                        </a>
+                        <a href="文案——霜降.html" title="小寒">
+                            <div class="ph" data-image="./冬季材料/小寒.jpg">小寒</div>
+                        </a>
+                        <a href="文案——寒露.html" title="大寒">
+                            <div class="ph" data-image="./冬季材料/大寒.jpg">大寒</div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="div_season season_autumn">
+                    <dl>
+                        <dt>秋<em>autumn</em></dt>
+                        
+                        <dd><a class="on">立秋<br/>Autumn Begains</a><a href="solarterm-13.html" class="current">立秋<br/>Autumn Begains</a></dd>
+                        <dd><a class="on">处暑<br/>Stopping The Heat</a><a href="solarterm-14.html" class="current">处暑<br/>Stopping The Heat</a></dd>
+                        <dd><a class="on">白露<br/>White Dews</a><a href="solarterm-15.html" class="current">白露<br/>White Dews</a></dd>
+                        <dd><a class="on">秋分<br/>Autumn Equinox</a><a href="solarterm-16.html" class="current">秋分<br/>Autumn Equinox</a></dd>
+                        <dd><a class="on">寒露<br/>Cold Dews</a><a href="solarterm-17.html" class="current">寒露<br/>Cold Dews</a></dd>
+                        <dd><a class="on">霜降<br/>Hoar-frost Falls</a><a href="solarterm-18.html" class="current">霜降<br/>Hoar-frost Falls</a></dd>
+                        
+                        <div class="clearBoth"></div>
+                    </dl>
+                </div>      -->
+
+                <!-- <div class="div_season season_winter">
+                    <dl>
+                        <dt>冬<em>winter</em></dt>
+
+                        <dd><a class="on">立冬<br/>Winter Begins</a><a href="solarterm-19.html" class="current">立冬<br/>Winter Begins</a></dd>
+                        <dd><a class="on">小雪<br/>Light Snow</a><a href="solarterm-20.html" class="current">小雪<br/>Light Snow</a></dd>
+                        <dd><a class="on">大雪<br/>Heavy Snow</a><a href="solarterm-21.html" class="current">大雪<br/>Heavy Snow</a></dd>
+                        <dd><a class="on">冬至<br/>Winter Solstice</a><a href="solarterm-22.html" class="current">冬至<br/>Winter Solstice</a></dd>
+                        <dd><a class="on">小寒<br/>Slight Cold</a><a href="solarterm-23.html" class="current">小寒<br/>Slight Cold</a></dd>
+                        <dd><a class="on">大寒<br/>Great Cold</a><a href="solarterm-24.html" class="current">大寒<br/>Great Cold</a></dd>
+                        <div class="clearBoth"></div>
+
+                    </dl>
+                </div>      -->
+
+            </div>
+            <!-- /2nd screen -->
+<!-- 3rd screen -->
+            <div class="swiper-slide" id="section3">
+                <div id="leftMenuBg">
+                    <ul>
+                        <li><a href="solartermcate.html">节气节日</a></li>
+                        <li><a href="weatherphotocate.html">天气风景</a></li>
+                        <li><a href="cate-3.html">传统文化</a></li>
+                        <li><a href="cate-4.html">地方风俗</a></li>
+                        <li><a href="cate-5.html">时令养生</a></li>
+                        <li><a href="shicicate.html">诗歌文赋</a></li>
+                        <li><a href="cate-7.html">生肖星座</a></li>			
+                    </ul>
+                </div>
+                <div id="newsBgBorder">
+                    <dl>
+                        <dt class="dt1">
+                            <span>節氣節日</span>
+                        </dt>
+                        <dd>                    
+                            <a href="solarterm-1.html" title="立春">·立春（Spring Begins）</a><a href="solarterm-2.html" title="雨水">·雨水（The Rains）</a><a href="solarterm-3.html" title="惊蛰">·惊蛰（Insects Awaken）</a><a href="solarterm-4.html" title="春分">·春分（Vernal Equinox）</a><a href="solarterm-5.html" title="清明">·清明（Clear And Bright）</a><a href="solarterm-6.html" title="谷雨">·谷雨（Grain Rain）</a><a href="solarterm-7.html" title="立夏">·立夏（Summer Begins）</a><a href="solarterm-8.html" title="小满">·小满（Grain Buds）</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt2">
+                            <span>天氣風景</span>
+                        </dt>
+                        <dd>                          
+                            <a href="weatherphotolist-21.html" title="春天大自然的气息">·春天大自然的气息</a><a href="weatherphotolist-21.html" title="春">·春</a><a href="weatherphotolist-21.html" title="春">·春</a><a href="weatherphotolist-21.html" title="潮州八景（鳄渡秋风）">·潮州八景（鳄渡秋风）</a><a href="weatherphotolist-21.html" title="春天的日早是这样啊(≧∇≦)/">·春天的日早是这样啊(≧∇≦)/</a><a href="weatherphotolist-29.html" title="节气">·节气</a><a href="weatherphotolist-21.html" title="冬天来了 春天还会远么？">·冬天来了 春天还会远么？</a><a href="weatherphotolist-21.html" title="东风一枝">·东风一枝</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt3">
+                            <span>傳統文化</span>
+                        </dt>
+                        <dd>                          
+                            <a href="content-747.html" title="秋声赋">·秋声赋</a><a href="content-535.html" title="中国二十四节气介绍，古代订立的一种用来指导农事的补充历法">·中国二十四节气介绍，古代订立的一...</a><a href="content-544.html" title="沈括与被埋没八百多年的《十二气历》">·沈括与被埋没八百多年的《十二气历》</a><a href="content-548.html" title="满壁蔷薇 吐露芳菲">·满壁蔷薇 吐露芳菲</a><a href="content-550.html" title="花开枝头别样娇  ----  迎春花">·花开枝头别样娇  ----  迎春花</a><a href="content-551.html" title="风雨来       赐晴空云霭">·风雨来       赐晴空云霭</a><a href="content-554.html" title="看图   听诗   猜谜">·看图   听诗   猜谜</a><a href="content-558.html" title="小满祭车神祭蚕-“小满动三车（指丝车、油车、水车）”">·小满祭车神祭蚕-“小满动三车（指...</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt4">
+                            <span>地方風俗</span>
+                        </dt>
+                        <dd>                          
+                            <a href="content-731.html" title="今年的三伏天有40天！">·今年的三伏天有40天！</a><a href="content-582.html" title="夏至面-“冬 至饺子 夏 至面 ”">·夏至面-“冬 至饺子 夏 至面 ”</a><a href="content-565.html" title="立春与属相及结婚日选择">·立春与属相及结婚日选择</a><a href="content-552.html" title="花开枝头别样娇-月季">·花开枝头别样娇-月季</a><a href="content-438.html" title="蓬莱概况">·蓬莱概况</a><a href="content-372.html" title="夏至未至">·夏至未至</a><a href="content-131.html" title="凤凰山传说">·凤凰山传说</a><a href="content-130.html" title="武则天怒贬牡丹花">·武则天怒贬牡丹花</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt5">
+                            <span>時令養生</span>
+                        </dt>
+                        <dd>                     
+                            <a href="content-767.html" title="自家种的小番茄">·自家种的小番茄</a><a href="content-746.html" title="处暑养生">·处暑养生</a><a href="content-253.html" title="鹅莓">·鹅莓</a><a href="content-114.html" title="山药，以怀山药为佳">·山药，以怀山药为佳</a><a href="content-113.html" title="冬季食用红薯">·冬季食用红薯</a><a href="content-112.html" title="大寒养生">·大寒养生</a><a href="content-111.html" title="小寒养生">·小寒养生</a><a href="content-110.html" title="冬至养生">·冬至养生</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt6">
+                            <span>詩歌文賦</span>
+                        </dt>
+                        <dd>                          
+                            <a href="shici-528.html" title="夏杪">·夏杪</a><a href="shici-527.html" title="咏萤火">·咏萤火</a><a href="shici-526.html" title="夏至日作">·夏至日作</a><a href="shici-525.html" title="木兰花慢 · 谷雨日">·木兰花慢 · 谷雨日</a><a href="shici-524.html" title="二月二日">·二月二日</a><a href="shici-523.html" title="汉宫春·立春日">·汉宫春·立春日</a><a href="shici-522.html" title="汉宫春·蜡梅">·汉宫春·蜡梅</a><a href="shici-521.html" title="莫言草木委冬雪，会应苏息遇阳春。">·莫言草木委冬雪，会应苏息遇阳春。</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt7">
+                            <span>生肖星座</span>
+                        </dt>
+                        <dd>                        
+                            <a href="content-745.html" title="灵宪">·灵宪</a><a href="content-574.html" title="邵康节的历史哲学">·邵康节的历史哲学</a><a href="content-571.html" title="术数之学在中国文化幕后的演进">·术数之学在中国文化幕后的演进</a><a href="content-569.html" title="术数与迷信">·术数与迷信</a><a href="content-568.html" title="东西文化幕后之说">·东西文化幕后之说</a><a href="content-563.html" title="二十八星宿性格生日对照">·二十八星宿性格生日对照</a><a href="content-560.html" title="我国古代纪日法">·我国古代纪日法</a><a href="content-562.html" title="二十八星宿释义">·二十八星宿释义</a>
+                        </dd>			
+                    </dl>   
+                    <dl>
+                        <dt class="dt8">
+                            <span>時光日曆</span>
+                        </dt>
+                        <dd>                         
+                            <a href="content-1229.html" title="2023年二十四节气交节时间表">·2023年二十四节气交节时间表</a><a href="content-621.html" title="关于新版本二十四节气客户的说明">·关于新版本二十四节气客户的说明</a>
+                        </dd>			
+                    </dl>     
+                    <div class="clearBoth"></div>  
+                    
+                </div>	
+                <div id="rightCopyRight"></div>	 
+            </div>
+            <!-- /3rd screen -->        
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- /Swiper -->
+    <!-- scrollBtn -->
+    <div id="BottomBtn"><img id="BottomBtnImg" src="photos/down.png" width="67"/></div>
+    <!-- /scrollBtn -->
+    <div id="div_img_loading"><img src="photos/loading.png" width="70" height="70"/></div>
+   
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type='text/javascript' src='js/jcanvas.min.js'></script>
+    <script>
+    //初始化Swiper
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        speed:800,
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        } ,
+        on:{
+            slideChange: function(){  
+                var len=swiper.slides.length;            
+                sectionIndex=swiper.activeIndex;
+                //sectionIndex=(sectionIndex)%len;
+                if(sectionIndex==(len-1)){
+                    $("#BottomBtn").hide();
+                }else{
+                    $("#BottomBtn").show();
+                }
+            },
+        }    
+    });
+    $(window).on('resize', function () {//初次加载和每次窗体大小变化时，banner图自适应代码
+        var winH = $(this).height();
+        var winW = $(this).width();
+        $("#img_bigpic").css({"marginLeft":(winW-1920)/2+"px","marginTop":(winH-1080)/2+"px"});
+    });
+    var now = new Date();  
+    var timeMSecs=1684912851359;//now.getTime();//1566811316325 ;
+    now.setTime(timeMSecs);
+    setInterval(function(){//---------------更新时间显示
+        timeMSecs=now.getTime();
+        now.setTime(timeMSecs+1000);      
+        var hour = now.getHours();//得到小时
+        var minu = now.getMinutes();//得到分钟
+        var sec = now.getSeconds();//得到秒        
+        if (hour < 10) hour = "0" + hour;
+        if (minu < 10) minu = "0" + minu;
+        if (sec < 10) sec = "0" + sec; 
+        var time = hour + " : " + minu + " : " + sec; 
+        $("#p_TimeNow").text(time);
+        drawCanvasTimeClock(hour,minu,sec);
+    },1000);
+    /*绘制动画时钟画布上的内容*/
+    function drawCanvasTimeClock(hours,mins,secs){
+        var xCenter=29,yCenter=29,r=29;//时钟的中心点坐标、 圆形半径
+        var canvasContext = $("#canvasTimeClock");
+        canvasContext.clearCanvas();
+        //绘制表外框
+        canvasContext.drawArc({
+            strokeStyle: '#FFF',
+            strokeWidth: 1.5,
+            x: xCenter, y: yCenter,
+            radius: 28,  // start and end angles in degrees
+            start: 0,
+            end: 360
+        });
+        //绘制表外框上下左右8个刻度
+        for (var i = 0; i < 12; i++) {
+            var len = 8;
+            if (i % 3 == 0) len = 3;
+
+            canvasContext.drawVector({
+                strokeStyle: '#FFF',
+                strokeWidth: 1,
+                x: xCenter, y: yCenter,
+                a1: i * 30, l1: r-0.5
+            }).clearCanvas({
+                x: xCenter, y: yCenter,
+                width: 20, height: 42 + len,
+                rotate: i * 30
+            });
+        }
+        //绘制秒针
+        canvasContext.drawVector({
+            strokeStyle: '#FFF',
+            strokeWidth: 1,
+            x: xCenter, y: yCenter,
+            a1: secs*6, l1: r-2
+        });
+        //绘制分针
+        canvasContext.drawVector({
+            strokeStyle: '#FFF',
+            strokeWidth: 2,
+            x: xCenter, y: yCenter,
+            a1: mins*6, l1: r-8
+        });
+        //绘制时针针
+        canvasContext.drawVector({
+            strokeStyle: '#FFF',
+            strokeWidth: 4,
+            x: xCenter, y: yCenter,
+            a1: hours*30, l1: r-12
+        });
+    }
+   
+    var sectionIndex=0;
+    //点击滑动到下一屏
+    $("#BottomBtn").click(function(){
+        var len=swiper.slides.length;
+        sectionIndex=swiper.activeIndex+1;
+        sectionIndex=(sectionIndex)%len;
+        swiper.slideTo(sectionIndex);         
+    });
+
+    $(window).load(function() { 
+       $("#div_img_loading").hide();
+        $(".swiper-container").css("visibility","visible");
+		setTimeout(function(){$("#BottomBtn").fadeIn(1000)},8000);
+
+		var winH = $(this).height();
+        var winW = $(this).width();
+        $("#img_bigpic").css({"marginLeft":(winW-1920)/2+"px","marginTop":(winH-1080)/2+"px"});
+	});		
+     setTimeout(function(){
+			$(".div_season dl dd a.on:eq( 7 )" ).css({"display":"none"});
+			$(".div_season dl dd a.current:eq( 7 )" ).css({"display":"block"});
+		},100);
+    </script>
+
+
+<div style="display: none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?71703c62fd7fd4f43e51e387e1a1c8a3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+</body>
+</html>
