@@ -1,0 +1,58 @@
+.div0{
+    background: url(秋季材料/png14.png) repeat ;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+h2{
+text-align: center;
+}
+p{
+    text-indent: 2em;
+}
+.div1{
+    text-align: center;
+}
+.div2{
+    text-align: center;
+    line-height: 3em;
+    font-family: 楷体;
+}
+h3{
+    text-indent: 2em;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar li a:hover {
+    text-decoration: underline;
+  }

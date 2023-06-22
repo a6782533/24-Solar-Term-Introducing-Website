@@ -1,0 +1,72 @@
+.秋 {
+    width: 500px;
+    height: 225px;
+    background-color: white;
+    position: relative;
+    margin-left: 115px;
+    margin-bottom: 70px;
+    float: left;
+}
+
+.秋字 {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top: -35px;
+    left: -100px;
+}
+
+.节气介绍 {
+    padding: 75px 0 0 250px;
+    color: aqua;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p {
+    background: url("./秋季材料/arr1.png") no-repeat;
+    font-family: 楷体;
+    font-size: 1.5em;
+    background-color: white;
+    width: 20px;
+    text-align: center;
+    text-size-adjust: 18px;
+    float: left;
+    padding-top: 50px;
+    margin: 0 7px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.p::after {
+    content: "";
+    display: none;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    margin: 10px auto 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.p img {
+    width: 500%;
+    height: 500%;
+    object-fit: cover;
+}
+
+.p:hover {
+    transform: translateY(-10px);
+}
+
+.p:hover::after {
+    display: block;
+    opacity: 1;
+}
