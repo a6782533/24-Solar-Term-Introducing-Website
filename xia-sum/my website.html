@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" type="text/css" href="my website.css">   
+</head>
+<body>
+
+	<h2> 》夏《</h2>
+    <div class="item"> 
+        <div class="img">
+            <img src="夏.png" title="" alt="" />
+        </div>
+
+		<div class="box">
+			<ul>
+			  <li>
+				<a title="lichun" href="https://www.ihchina.cn/Article/Index/detail?id=9706" target="_blank" >
+					<div class="p"><img src="和立夏.jpg" width=400px /></div>
+				</a>
+				<p>立春</p>
+			  </li>
+
+
+			  <li>
+				<a title="yushui" href="https://www.ihchina.cn/Article/Index/detail?id=9692" target="_blank" >
+					<div class="p"><img src="和小满.jpg" width=400px /></div>
+				</a>
+				<p>雨水</p>
+			  </li>
+
+
+			  <li>
+				<a title="jingzhe" href="https://www.ihchina.cn/Article/Index/detail?id=9676" target="_blank" >
+					<div class="p"><img src="和芒种.jpg" width=400px /></div>
+				</a>
+				<p>惊蛰</p>
+			  </li>
+
+
+			  <li>
+				<a title="chunfen" href="https://www.ihchina.cn/Article/Index/detail?id=10059" target="_blank" >
+					<div class="p"><img src="和夏至.jpg" width=400px  /></div>
+				</a>
+				<p>春分</p>
+			  </li>
+
+
+			  <li>
+				<a title="qingming" href="https://www.ihchina.cn/Article/Index/detail?id=10041" target="_blank" >
+					<div class="p"><img src="和小暑.jpg" width=400px /></div>
+				</a>
+				<p>清明</p>
+			  </li>
+
+
+			  <li>
+				<a title="guyu" href="https://www.ihchina.cn/Article/Index/detail?id=10019" target="_blank" >
+					<div class="p"><img src="和大暑.jpg" width=400px  /></div>
+				</a>                   
+				<p>谷雨</p>
+			  </li>
+
+			</ul>
+		</div>
+
+    </div>
+		
+
+	<h3> 》夏天节气寓意《</h3>
+	<div id="div3">
+		<div id="hea">夏天的六个节气分别是:立夏、小满、芒种、夏至、小暑和大暑。《月令七十二候集解》记载：“立夏，四月节。立字解见春。夏，假也。物至此时皆假大也。”我国古代将夏至分为三候：“一候鹿角解；二候蝉始鸣；三候半夏生。”夏至日阴气生而阳气始衰，鹿角开始脱落；知了在夏至后鼓翼而鸣；在炎热的仲夏，一些喜阴的生物开始出现。
+		<div id="jieshao">
+			<div id="chun1">
+				<p id="p1">
+					立夏是农历二十四节气中的第七个节气，也是夏季的第一个节气，此时太阳到达黄经45度。
+				</p>				
+			</div>
+	
+			<div id="chun2">
+				<p id="p2">
+					《月令七十二候集解》记载：“四月中，小满者，物至于此小得盈满。”
+				</p>
+			</div>
+			
+			<div id="chun3">
+				<p id="p3">
+					芒种节气的物候特征是：“一候螳螂生；二候鹏始鸣；三候反舌无声。” 
+				</p>
+			</div>
+	
+			<div id="chun4">
+				<p id="p4">
+					古时夏至日，人们通过祭神以祈求灾消年丰。
+				</p>
+			</div>
+	
+			<div id="chun5">
+				<p id="p5">
+					小暑，是二十四节气中的第十一个节气，每年公历7月7日或8日，太阳到达黄经105°时为小暑。
+				</p>
+			</div>
+	
+			<div id="chun6">
+				<p id="p6">
+					“大暑”表示炎热至极。大暑三候为：“一候腐草为萤；二候土润溽暑；三候大雨时行。”
+				</p>
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript">
+		window.addEventListener('scroll', function() {
+
+			var div1 = document.getElementById('chun1');
+			var div2 = document.getElementById('chun2');
+			var div3 = document.getElementById('chun3');
+			var div4 = document.getElementById('chun4');
+			var div5 = document.getElementById('chun5');
+			var div6 = document.getElementById('chun6');
+
+
+			var position = div1.getBoundingClientRect().top;
+			var under = div6.getBoundingClientRect().bottom;
+
+			var offset1 = window.innerHeight * 0.9 ; // 触发动画的位置，这里设置为窗口高度的0.9
+			var offset2 = window.innerHeight * 0.1 ;
+			if ((position < offset1 && under > window.innerHeight)||(position<=0&&under>=offset2)) {
+				div1.classList.add('chuntian1');
+				div2.classList.add('chuntian2');
+				div3.classList.add('chuntian3');
+				div4.classList.add('chuntian4');
+				div5.classList.add('chuntian5');
+				div6.classList.add('chuntian6');
+			} else {
+				div1.classList.remove('chuntian1');
+				div2.classList.remove('chuntian2');
+				div3.classList.remove('chuntian3');
+				div4.classList.remove('chuntian4');
+				div5.classList.remove('chuntian5');
+				div6.classList.remove('chuntian6');
+			}
+			
+		});
+	</script>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function() {
+
+			var div4left = document.getElementById('div4left');
+			var div4right = document.getElementById('div4right');
+
+
+			var position = div4left.getBoundingClientRect().top;
+			
+			var offset1 = window.innerHeight * 0.96 ;
+
+			if (position < offset1) {
+				div4left.classList.add('leftafter');
+				div4right.classList.add('rightafter');
+			} else {
+				div4left.classList.remove('leftafter');
+				div4right.classList.remove('rightafter');
+			}
+
+		});
+	</script>
+
+</body>
+
+
+</html>
