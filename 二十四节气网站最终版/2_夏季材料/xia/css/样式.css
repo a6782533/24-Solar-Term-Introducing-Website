@@ -1,0 +1,131 @@
+.light-theme {
+  --back:url("../img/千里江山.png");
+  --font: #502f2f;
+  --di:antiquewhite;
+  --difont:#502f2f;
+  --change:#c28957;
+  --hover:#738a00;
+  
+}
+.dark-theme {
+  --back:url("../img/雨后落花.png");
+  --font:#ffeddb;
+  --di:#738a00;
+  --difont:#ffede0;
+  --change:#ffce0a;
+  --hover:#cfaae1;
+}
+body{
+	margin:100px;
+	background-image:var(--back);
+	background-size:110% 110%;
+	background-attachment: fixed;
+	animation: gradientBG 20s ease infinite;
+}
+@keyframes gradientBG{
+	0% {
+	    background-position: 0% 50%;
+	}
+	50% {
+	    background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+	
+}
+.按键{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    height: 60px;
+    width: 140px;
+	font-family: 仿宋;
+	color: var(--difont);
+	font-size: 24px;
+	font-weight: 700;
+    border-radius: 45%;
+    border: none;
+    background-color: var(--di);
+}
+.按键:focus{ outline-style: none; }
+
+.大标题{
+	font-family: 隶书;
+	color: var(--font);
+	font-size:60px;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 26px;
+	text-align: center;
+}
+.小标题{
+	text-align: center;
+	color: var(--font);
+	font-family: 隶书;
+	font-size:40px;
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.文段>p{
+	background-color: var(--di);
+}
+.文段{
+	color: var(--difont);
+	font-family: 仿宋;
+	text-indent: 40px;
+	font-size:20px;
+	font-weight: 700;
+	margin-left:100px;
+	margin-right:100px;
+	line-height:2em;
+}
+.插图{
+	margin-top:50px;
+	margin-bottom:50px;
+	text-align: center;
+}
+.链接{
+	font-family: 隶书;
+	font-size:25px;
+	margin-left:100px;
+	margin-right:100px;
+}
+a{
+	margin:40px;
+	display: block;
+}
+a:link{
+	background-color: var(--di);
+	color: var(--difont);
+	text-decoration:none;
+}
+a:visited{
+	color: var(--change);
+	text-decoration:none;
+}
+a:hover{
+	color: var(--hover);
+	background-color: var(--di);
+	text-decoration:underline;
+}
+a:active{
+	color:var(--difont);
+	text-decoration: var(--di);
+}
+.居中引用目录{
+	color: var(--difont);
+	font-family: 楷体;
+	text-align: center;
+	font-size:17px;
+	font-weight: 700;
+}
+ul{
+	list-style: none;
+	
+}
+li{
+	margin-top:20px;
+	margin-bottom: 20px;
+	background-color: var(--di);
+}
